@@ -15,7 +15,7 @@ const express = require('express')
 app.set('trust proxy', 1);
 
 app.get('/', (req, res) => {
-  res.send('<html><head><style>body {text-align:center;font-family:Arial;color:white;background:#000;}</style></head><body><h1>Linkvertise Bypass API</h1><h2>Usage:</h2><p>https://api.kashooting.tech/api?url=linkvertiseurl</p><br><br><a href="https://github.com/respecting/shortlink-api">Fork me on Github!</a></body></html>')
+  res.send('<html><head><style>body {text-align:center;font-family:Arial;color:white;background:#000;}</style></head><body><h1>Shortlink Revealer API</h1><h2>Usage:</h2><p>https://api.kashooting.tech/api?url=shortlink</p><br><br><a href="https://github.com/respecting/shortlink-api">Fork me on Github!</a></body></html>')
 })
 
 app.use('/api', limit)
